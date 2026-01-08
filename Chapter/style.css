@@ -1,0 +1,41 @@
+*{
+    
+    font-family: sans-serif;
+}
+
+body{
+    
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.head{
+    text-align: center;
+    max-width: 900px; 
+    margin:  30px auto;
+    /* padding: 0 70px; */
+}
+
+.name{
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+}
+.start{
+    color: grey;
+}
+.syntax{
+    max-width:600px;
+   margin-left: 20% ;
+}
+.abc::first-letter{
+    font-family: cursive;
+    font-size: 60px;
+}
+.big{
+    line-height: 0.8;
+    font-size:50px; 
+    /* width: 50px;
+    height: 40px; */
+    margin-bottom: 70%;
+}
