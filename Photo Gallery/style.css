@@ -36,3 +36,13 @@ body{
     border-radius: 8px;
     aspect-ratio: 4/5;
 }
+
+@media (max-width:750px)
+{
+    .gallery{
+        grid-template-columns: 1fr;
+    }
+    .gallery{
+        margin-right: 50px;
+    }
+}
