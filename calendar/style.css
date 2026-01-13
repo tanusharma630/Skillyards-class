@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(1,46,46);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.calendar{
+    margin: 80px;
+    width: 400px;
+    padding: 25px;
+    background:rgba(255, 255, 255, 0.2);
+    border-radius: 25px;
+    height: 350px;
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow:0 25px 50px -15px rgba(0, 0, 0, 0.5)
+}
+
+.calendar-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    color: white;
+}
+
+.nav-button span {
+         background-color: rgb(255, 255, 255,0.1);
+        padding:8px 12px;
+        border-radius: 7px;
+        margin-left: 8px;
+        cursor: pointer;
+        font-size: 0.9rem;
+        transform: 0.4s;
+}
+
+.nav-button span:hover{
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+.calendar-grid{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    gap: 15px;
+    text-align: center;
+    box-shadow: 0dvb;
+}
+.day{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.90rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom:10px;
+}
+.date{
+     aspect-ratio: 2 ;  /* it ensures every cell is a perfect square regardless of content*/
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: rgba(255, 255, 255, 0.9);
+     font-weight: 350;
+     font-size:1rem ;
+     cursor: pointer;
+     border-radius: 12px;
+}
+.date:hover{
+    background: rgba(255, 255, 255, 0.15);
+    transform: translateY(-2px); 
+    color: black;
+}
+.date.passive{
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+.passive:hover{
+    background-color: rgba(255, 255, 255, 0);
+}
