@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: violet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.bento-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    max-width: 1200px;
+    height: 200px;
+    grid-auto-rows: 250px;   /*each row is 200px height by default*/
+    width:100%;
+    gap: 16px;
+}
+.card{
+    background-color: plum;
+    display: flex;
+    flex-direction: column;
+    position:relative ;
+    overflow: hidden;
+    transition: transform 0.5s ease;
+    border-radius: 20px;
+}
+.content{
+    padding: 2px;
+    z-index: 2;
+}
+.card tech {
+     grid-row: span 2;
+    justify-content: flex-end;
+    background-image: url("https://i.pinimg.com/736x/75/c8/44/75c8440fa3fd9fbb345ac64a4bee5b73.jpg");
+
+}
+
