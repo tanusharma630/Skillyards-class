@@ -1,0 +1,89 @@
+
+
+body{
+    background-color: beige;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    min-height: 100vh;
+}
+.card{
+    justify-content: center;
+   border-radius: 20px;
+    background-color: white;
+     display: flex;
+    flex-direction:column;
+    position:relative ;
+    overflow: hidden;
+    width: 250px;
+    height: 450px;
+    padding: 10px;
+    margin: auto;
+    box-shadow: black 1px 2px 4px ;
+}
+.container{
+    width: 250px;
+    height: 300px;
+    margin: 20px;
+}
+.pic {
+    width: 200px;
+    margin-left: 10px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 13px;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+.pic:hover{
+     background: rgba(255, 255, 255, 0.15);
+    transform: scale(2); 
+}
+h3{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 45%;
+    padding: 4px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-left: 45%;
+    box-shadow: black 1px 2px 4px ;
+}
+.quality{
+    margin: 0px;
+    width: 200px;
+    height: 150px;
+}
+h5{
+   margin: 0px; 
+   color: grey;
+}
+h2{
+    margin: 0px;
+    
+}
+h1{
+    margin-top: 30px;
+    font-size: 25px;
+    margin-left: 10px;
+}
+.price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.shop{
+    padding:8px 12px;
+    width: 30px;
+    margin-left: 70px;
+    border-radius: 20px;
+    background-color: rgba(171, 170, 170, 0.5);
+    box-shadow: 0px 0px 0px 2px;
+}
+.shop:hover{
+    transform: rotate(10deg);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
