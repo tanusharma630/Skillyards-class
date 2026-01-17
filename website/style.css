@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+   font-family: Arial, sans-serif;
+    background-color: azure;
+}
+
+.head{
+      display: flex;
+      justify-content: start;
+      align-items: center;
+
+      gap: 15px;
+      flex-wrap: wrap;
+}
+
+.name{
+    text-align: center;
+    margin: 0px;
+    font-weight: bold;
+}
+
+.section{
+    margin: 0px;
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+.foot{
+    text-align: center;
+    width: 250px;
+   padding: 20px;
+    margin: 8px;
+    font-style:inherit;
+    color: rgb(8, 8, 8);
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    background-color: rgb(209, 226, 241);
+    border-radius: 20px;
+    align-items: center;
+    height: 490px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    background-color: rgb(209, 226, 241);
+    border-radius: 20px;
+    align-items: center;
+}
+
+.imgs{
+    border-radius: 20px;
+    margin-bottom;
+    width: 210px;
+    padding-top: 20px
+}
+
+.imgw{
+    border-radius: 20px;
+    margin-bottom;
+    width: 220px;
+    height: 245px;
+    padding-top: 20px
+}
+ 
+.imgc{
+    width:220px;
+    height:250px ;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+
+.imgh{
+    border-radius: 20px;
+    width: 220px;
+   height: 250px;
+   padding-top: 20px
+}
+
+.price{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.btnn{
+    margin: 10px;
+    height: 40px;
+    background-color: rgb(40, 40, 243);
+    color: aliceblue;
+    font-size: medium;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+}
+.btn{
+     margin: 20px;
+    height: 40px;
+    background-color: rgb(40, 40, 243);
+    color: aliceblue;
+    font-size: medium;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+}
