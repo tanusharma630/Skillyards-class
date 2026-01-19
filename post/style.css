@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    /* max-height: 100vh; */
+}
+
+.container{
+    justify-content: center;
+     align-items: center;
+     border: 1px solid grey;
+     width: 48%;
+     height: 100vh;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 150px;
+    border: 1px solid grey;
+    gap: 20px;
+}
+
+.salman{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+}
+.id{
+    color: grey;
+} 
+.dept{
+    margin: 5px;
+}
