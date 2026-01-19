@@ -10,7 +10,6 @@ body{
     flex-direction: row;
     justify-content: center;
     color: white;
-    /* max-height: 100vh; */
 }
 
 .container{
@@ -25,8 +24,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 600px;
-    height: 150px;
+    width: 602px;
+    height: 120px;
     border: 1px solid grey;
     gap: 20px;
 }
@@ -37,11 +36,13 @@ body{
     justify-content: flex-start;
     width: 60px;
     height: 60px;
-    border-radius: 40px;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-bottom: 40px;
 }
 .id{
     color: grey;
 } 
 .dept{
-    margin: 5px;
+    margin: 7px;
 }
